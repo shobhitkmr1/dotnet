@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="BBI.master.cs" Inherits="BBI" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="height: 127px">
+            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="SearchBlood1.aspx" target="_parent" ><img src="Image\bbi.png" style="height: 103px; width: 375px"></img></a>
+
+        </div>
+        <div style="height: 55px">
+ <img src="Nav/Head1.jpg" height="55" width="235" /><a href="SearchBlood1.aspx" target="_parent"><img src="Nav\SD.jpg"  /></a><a href="Register.aspx" target="_parent"><img src="Nav\Reg.jpg" /></a><a href="Request.aspx" target="_parent"><img src="Nav\ReqBd.jpg" /></a><a href="AboutUs.aspx" target="_parent"><img src="Nav\AU.jpg" /></a><a href="ContactUs.aspx" target="_parent"><img src="Nav\Cont.jpg" /></a><img src="Nav/Head1.jpg" height="55" width="250" />
+        </div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <div style="background-color:#DBDBDB; height: 108px;" >
+
+            <style type="text/css">
+    <!--
+    /*div {
+      color:#727272;
+      background-color:#DBDBDB;
+      background-image:url('Background Image');
+      background-repeat:no-repeat;
+    }*/
+    a  { color:#727272; }
+    a:visited { color:#727272; }
+    a:hover { color:#727272; }
+    a:active { color:#727272; }
+    /* Don't underline links */
+    a:link {text-decoration: none;}
+    a:visited {text-decoration: none;}
+    -->
+    </style>
+
+            <br />
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<font size="2" face="arial" color="#727272"> <a href="SearchBlood1.aspx" target="_parent">Search Donors</a> &nbsp; - &nbsp;  <a href="AboutUs.aspx" target="_parent">About Us</a> &nbsp; - &nbsp;  <a href="Register.aspx" target="_parent">Register As Donor</a> &nbsp; - &nbsp;  <a href="Request.aspx" target="_parent">Request Blood</a> &nbsp; - &nbsp;  <a href="ContactUs.aspx" target="_parent">Contact Us</a></font>
+<br />
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+<font size="2" face="arial" color="#727272"> <a href="SearchBlood1.aspx" target="_parent"><b>BloodBankIndia.Net</b></a> People project from<a href="ContactUs.aspx"><b> SHOBHIT &amp; HARSHIT.</b></a> All rights reserved 2016<a href="ContactUs1.aspx">.</a></font></div>
+    </form>
+</body>
+</html>
